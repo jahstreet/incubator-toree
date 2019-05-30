@@ -22,3 +22,6 @@ libraryDependencies += Dependencies.guava
 // TEST DEPENDENCIES
 //
 libraryDependencies += Dependencies.akkaTestkit % "test"
+
+// Custom dependencies
+libraryDependencies += "com.microsoft.azure" % "azure-data-lake-store-sdk" % "2.2.9"
